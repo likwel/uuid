@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
 
 <!-- ABOUT THE PROJECT -->
@@ -24,7 +24,7 @@ You can install the library via npm:
 Alternatively, you can include it directly in your HTML:
 * cdn
     ```sh
-    <script src="path/to/x-uuid-generator.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/likwel/uuid/@1.0.0/build/x-uuid-generator.js"></script>
     ```
 <!-- GETTING STARTED -->
 ## Getting Started
