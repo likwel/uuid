@@ -33,7 +33,7 @@ Here's a quick example of how to generate a UUID using this library:
 * Node.js
     ```sh
         // If using Node.js
-        const uuid = require('uuid-generator');
+        const uuid = require('x-uuid-generator');
 
         // Generate a random UUID
         const newUUID = uuid.randomUUID();
@@ -76,6 +76,10 @@ Here's a quick example of how to generate a UUID using this library:
         const decrypted = decrypt(custom_uuid.encryped);
         console.log(decrypted);
     ```
+
+## Exemple d'utilisation
+
+<a href="https://github.com/likwel/uuid/blob/main/index.html">View Demo</a>
 
 ## Contribution
 
