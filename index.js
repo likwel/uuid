@@ -177,17 +177,3 @@ const decrypt = (hexString, paramsObject=null) => {
     }
     return result;
 }
-
-// Exemple d'utilisation
-
-const seed = 20240612;  // Votre nombre spécifique
-
-const uuidRandom = randomUUID({format : "12-4-4-8"});
-let uuid = UUID(seed);
-const decrypted = decrypt(uuid.encryped);
-
-document.getElementById("res").innerHTML = "UUID Random : " + uuidRandom;
-document.getElementById("res").innerHTML += "<br> Seed donnée : "+seed;
-document.getElementById("res").innerHTML += "<br> UUID donnée : "+uuid.uuid;
-document.getElementById("res").innerHTML += "<br> UUID crypté : "+uuid.encryped;
-document.getElementById("res").innerHTML += "<br> UUID decrypté : "+decrypted;
