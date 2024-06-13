@@ -24,7 +24,7 @@ You can install the library via npm:
 Alternatively, you can include it directly in your HTML:
 * cdn
     ```sh
-    <script src="https://cdn.jsdelivr.net/gh/likwel/uuid/@1.0.0/build/x-uuid-generator.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/likwel/uuid/@1.0.0/build/x-uuid-generator.min.js"></script>
     ```
 <!-- GETTING STARTED -->
 ## Getting Started
